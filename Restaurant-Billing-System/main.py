@@ -12,3 +12,4 @@ def show_menu():
     print("5. Rice Dal     -       Price: Rs.99")
     print("6. Paneer Roll. -       Price: Rs.75")
     print("7. Checkout.")
+    
