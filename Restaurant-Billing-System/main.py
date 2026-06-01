@@ -54,3 +54,12 @@ else:
     discount = 0
 
 total_amount = total + gst - discount
+
+# Final Billing
+
+print("\n            ...BIll...")
+print(f"Subtotal: {total}.")
+print(f"Gst: {gst}")
+print(f"Discount: {discount}")
+print(f"Total Bill: {total_amount}")
+print("\nThankyou! Please visit again :)")
