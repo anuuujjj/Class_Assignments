@@ -42,3 +42,15 @@ while True:
     quantity = int(input("Enter quantity : "))
     
     total += price*quantity
+
+
+gst = 0.05 * total
+
+if total > 1000 :
+    discount = 0.10 * total
+elif total > 500 :
+    discount = 0.05 * total
+else:
+    discount = 0
+
+total_amount = total + gst - discount
