@@ -29,3 +29,16 @@ def get_price():
     else:
         return 0
     
+total = 0
+while True:
+    show_menu()
+    choice=int(input("Enter your choice : "))
+
+    if choice == 7:
+        break
+    
+    price = get_price()
+
+    quantity = int(input("Enter quantity : "))
+    
+    total += price*quantity
