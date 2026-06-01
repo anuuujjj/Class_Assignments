@@ -12,4 +12,20 @@ def show_menu():
     print("5. Rice Dal     -       Price: Rs.99")
     print("6. Paneer Roll. -       Price: Rs.75")
     print("7. Checkout.")
+
+def get_price():
+    if choice == 1:
+        return 89
+    elif choice == 2:
+        return 299
+    elif choice == 3:
+        return 49
+    elif choice == 4:
+        return 30
+    elif choice == 5:
+        return 99
+    elif choice == 6:
+        return 75
+    else:
+        return 0
     
